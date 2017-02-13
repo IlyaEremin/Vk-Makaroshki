@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E88300021E522A3700BF90CC /* Vk_MararoshkiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88300011E522A3700BF90CC /* Vk_MararoshkiUITests.swift */; };
+		E883FFE21E522A3700BF90CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883FFE11E522A3700BF90CC /* AppDelegate.swift */; };
+		E883FFE41E522A3700BF90CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883FFE31E522A3700BF90CC /* ViewController.swift */; };
+		E883FFE71E522A3700BF90CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E883FFE51E522A3700BF90CC /* Main.storyboard */; };
+		E883FFE91E522A3700BF90CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E883FFE81E522A3700BF90CC /* Assets.xcassets */; };
+		E883FFEC1E522A3700BF90CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E883FFEA1E522A3700BF90CC /* LaunchScreen.storyboard */; };
+		E883FFF71E522A3700BF90CC /* Vk_MararoshkiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883FFF61E522A3700BF90CC /* Vk_MararoshkiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E883FFF31E522A3700BF90CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E883FFD61E522A3700BF90CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E883FFDD1E522A3700BF90CC;
+			remoteInfo = "Vk Mararoshki";
+		};
+		E883FFFE1E522A3700BF90CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E883FFD61E522A3700BF90CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E883FFDD1E522A3700BF90CC;
+			remoteInfo = "Vk Mararoshki";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E88300011E522A3700BF90CC /* Vk_MararoshkiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vk_MararoshkiUITests.swift; sourceTree = "<group>"; };
+		E88300031E522A3700BF90CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E883FFDE1E522A3700BF90CC /* Vk Mararoshki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vk Mararoshki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E883FFE11E522A3700BF90CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E883FFE31E522A3700BF90CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E883FFE61E522A3700BF90CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E883FFE81E522A3700BF90CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E883FFEB1E522A3700BF90CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E883FFED1E522A3700BF90CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E883FFF21E522A3700BF90CC /* Vk MararoshkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vk MararoshkiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E883FFF61E522A3700BF90CC /* Vk_MararoshkiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vk_MararoshkiTests.swift; sourceTree = "<group>"; };
+		E883FFF81E522A3700BF90CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E883FFFD1E522A3700BF90CC /* Vk MararoshkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vk MararoshkiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E883FFDB1E522A3700BF90CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883FFEF1E522A3700BF90CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883FFFA1E522A3700BF90CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E88300001E522A3700BF90CC /* Vk MararoshkiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E88300011E522A3700BF90CC /* Vk_MararoshkiUITests.swift */,
+				E88300031E522A3700BF90CC /* Info.plist */,
+			);
+			path = "Vk MararoshkiUITests";
+			sourceTree = "<group>";
+		};
+		E883FFD51E522A3700BF90CC = {
+			isa = PBXGroup;
+			children = (
+				E883FFE01E522A3700BF90CC /* Vk Mararoshki */,
+				E883FFF51E522A3700BF90CC /* Vk MararoshkiTests */,
+				E88300001E522A3700BF90CC /* Vk MararoshkiUITests */,
+				E883FFDF1E522A3700BF90CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E883FFDF1E522A3700BF90CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E883FFDE1E522A3700BF90CC /* Vk Mararoshki.app */,
+				E883FFF21E522A3700BF90CC /* Vk MararoshkiTests.xctest */,
+				E883FFFD1E522A3700BF90CC /* Vk MararoshkiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E883FFE01E522A3700BF90CC /* Vk Mararoshki */ = {
+			isa = PBXGroup;
+			children = (
+				E883FFE11E522A3700BF90CC /* AppDelegate.swift */,
+				E883FFE31E522A3700BF90CC /* ViewController.swift */,
+				E883FFE51E522A3700BF90CC /* Main.storyboard */,
+				E883FFE81E522A3700BF90CC /* Assets.xcassets */,
+				E883FFEA1E522A3700BF90CC /* LaunchScreen.storyboard */,
+				E883FFED1E522A3700BF90CC /* Info.plist */,
+			);
+			path = "Vk Mararoshki";
+			sourceTree = "<group>";
+		};
+		E883FFF51E522A3700BF90CC /* Vk MararoshkiTests */ = {
+			isa = PBXGroup;
+			children = (
+				E883FFF61E522A3700BF90CC /* Vk_MararoshkiTests.swift */,
+				E883FFF81E522A3700BF90CC /* Info.plist */,
+			);
+			path = "Vk MararoshkiTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E883FFDD1E522A3700BF90CC /* Vk Mararoshki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E88300061E522A3700BF90CC /* Build configuration list for PBXNativeTarget "Vk Mararoshki" */;
+			buildPhases = (
+				E883FFDA1E522A3700BF90CC /* Sources */,
+				E883FFDB1E522A3700BF90CC /* Frameworks */,
+				E883FFDC1E522A3700BF90CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vk Mararoshki";
+			productName = "Vk Mararoshki";
+			productReference = E883FFDE1E522A3700BF90CC /* Vk Mararoshki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E883FFF11E522A3700BF90CC /* Vk MararoshkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E88300091E522A3700BF90CC /* Build configuration list for PBXNativeTarget "Vk MararoshkiTests" */;
+			buildPhases = (
+				E883FFEE1E522A3700BF90CC /* Sources */,
+				E883FFEF1E522A3700BF90CC /* Frameworks */,
+				E883FFF01E522A3700BF90CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E883FFF41E522A3700BF90CC /* PBXTargetDependency */,
+			);
+			name = "Vk MararoshkiTests";
+			productName = "Vk MararoshkiTests";
+			productReference = E883FFF21E522A3700BF90CC /* Vk MararoshkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E883FFFC1E522A3700BF90CC /* Vk MararoshkiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E883000C1E522A3700BF90CC /* Build configuration list for PBXNativeTarget "Vk MararoshkiUITests" */;
+			buildPhases = (
+				E883FFF91E522A3700BF90CC /* Sources */,
+				E883FFFA1E522A3700BF90CC /* Frameworks */,
+				E883FFFB1E522A3700BF90CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E883FFFF1E522A3700BF90CC /* PBXTargetDependency */,
+			);
+			name = "Vk MararoshkiUITests";
+			productName = "Vk MararoshkiUITests";
+			productReference = E883FFFD1E522A3700BF90CC /* Vk MararoshkiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E883FFD61E522A3700BF90CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Eremin Ilya";
+				TargetAttributes = {
+					E883FFDD1E522A3700BF90CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E883FFF11E522A3700BF90CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E883FFDD1E522A3700BF90CC;
+					};
+					E883FFFC1E522A3700BF90CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E883FFDD1E522A3700BF90CC;
+					};
+				};
+			};
+			buildConfigurationList = E883FFD91E522A3700BF90CC /* Build configuration list for PBXProject "Vk Mararoshki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E883FFD51E522A3700BF90CC;
+			productRefGroup = E883FFDF1E522A3700BF90CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E883FFDD1E522A3700BF90CC /* Vk Mararoshki */,
+				E883FFF11E522A3700BF90CC /* Vk MararoshkiTests */,
+				E883FFFC1E522A3700BF90CC /* Vk MararoshkiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E883FFDC1E522A3700BF90CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E883FFEC1E522A3700BF90CC /* LaunchScreen.storyboard in Resources */,
+				E883FFE91E522A3700BF90CC /* Assets.xcassets in Resources */,
+				E883FFE71E522A3700BF90CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883FFF01E522A3700BF90CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883FFFB1E522A3700BF90CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E883FFDA1E522A3700BF90CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E883FFE41E522A3700BF90CC /* ViewController.swift in Sources */,
+				E883FFE21E522A3700BF90CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883FFEE1E522A3700BF90CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E883FFF71E522A3700BF90CC /* Vk_MararoshkiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883FFF91E522A3700BF90CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88300021E522A3700BF90CC /* Vk_MararoshkiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E883FFF41E522A3700BF90CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E883FFDD1E522A3700BF90CC /* Vk Mararoshki */;
+			targetProxy = E883FFF31E522A3700BF90CC /* PBXContainerItemProxy */;
+		};
+		E883FFFF1E522A3700BF90CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E883FFDD1E522A3700BF90CC /* Vk Mararoshki */;
+			targetProxy = E883FFFE1E522A3700BF90CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E883FFE51E522A3700BF90CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E883FFE61E522A3700BF90CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E883FFEA1E522A3700BF90CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E883FFEB1E522A3700BF90CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E88300041E522A3700BF90CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E88300051E522A3700BF90CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E88300071E522A3700BF90CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vk Mararoshki/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilyaeremin.Vk-Mararoshki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E88300081E522A3700BF90CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vk Mararoshki/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilyaeremin.Vk-Mararoshki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E883000A1E522A3700BF90CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Vk MararoshkiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilyaeremin.Vk-MararoshkiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vk Mararoshki.app/Vk Mararoshki";
+			};
+			name = Debug;
+		};
+		E883000B1E522A3700BF90CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Vk MararoshkiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilyaeremin.Vk-MararoshkiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vk Mararoshki.app/Vk Mararoshki";
+			};
+			name = Release;
+		};
+		E883000D1E522A3700BF90CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Vk MararoshkiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilyaeremin.Vk-MararoshkiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Vk Mararoshki";
+			};
+			name = Debug;
+		};
+		E883000E1E522A3700BF90CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Vk MararoshkiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilyaeremin.Vk-MararoshkiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Vk Mararoshki";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E88300061E522A3700BF90CC /* Build configuration list for PBXNativeTarget "Vk Mararoshki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E88300071E522A3700BF90CC /* Debug */,
+				E88300081E522A3700BF90CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E88300091E522A3700BF90CC /* Build configuration list for PBXNativeTarget "Vk MararoshkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E883000A1E522A3700BF90CC /* Debug */,
+				E883000B1E522A3700BF90CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E883000C1E522A3700BF90CC /* Build configuration list for PBXNativeTarget "Vk MararoshkiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E883000D1E522A3700BF90CC /* Debug */,
+				E883000E1E522A3700BF90CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E883FFD91E522A3700BF90CC /* Build configuration list for PBXProject "Vk Mararoshki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E88300041E522A3700BF90CC /* Debug */,
+				E88300051E522A3700BF90CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E883FFD61E522A3700BF90CC /* Project object */;
+}
