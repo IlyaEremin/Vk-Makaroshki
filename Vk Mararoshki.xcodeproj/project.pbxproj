@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E88300021E522A3700BF90CC /* Vk_MararoshkiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88300011E522A3700BF90CC /* Vk_MararoshkiUITests.swift */; };
+		E88300121E52339500BF90CC /* AuthorizeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88300111E52339500BF90CC /* AuthorizeController.swift */; };
 		E883FFE21E522A3700BF90CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883FFE11E522A3700BF90CC /* AppDelegate.swift */; };
 		E883FFE41E522A3700BF90CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883FFE31E522A3700BF90CC /* ViewController.swift */; };
 		E883FFE71E522A3700BF90CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E883FFE51E522A3700BF90CC /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		E88300011E522A3700BF90CC /* Vk_MararoshkiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vk_MararoshkiUITests.swift; sourceTree = "<group>"; };
 		E88300031E522A3700BF90CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E88300111E52339500BF90CC /* AuthorizeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizeController.swift; sourceTree = "<group>"; };
 		E883FFDE1E522A3700BF90CC /* Vk Mararoshki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vk Mararoshki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E883FFE11E522A3700BF90CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E883FFE31E522A3700BF90CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				E883FFE81E522A3700BF90CC /* Assets.xcassets */,
 				E883FFEA1E522A3700BF90CC /* LaunchScreen.storyboard */,
 				E883FFED1E522A3700BF90CC /* Info.plist */,
+				E88300111E52339500BF90CC /* AuthorizeController.swift */,
 			);
 			path = "Vk Mararoshki";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88300121E52339500BF90CC /* AuthorizeController.swift in Sources */,
 				E883FFE41E522A3700BF90CC /* ViewController.swift in Sources */,
 				E883FFE21E522A3700BF90CC /* AppDelegate.swift in Sources */,
 			);
